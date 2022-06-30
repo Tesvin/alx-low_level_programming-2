@@ -1,24 +1,21 @@
 #include <stdio.h>
-
+#include <string.h>
+#include <unistd.h>
 
 
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 1 (Success)
  */
 
 int main(void)
 
 {
+	char *text = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	int length = strlen(text);
 
-<<<<<<< HEAD
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
-	return (1);
-=======
-	  write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
-
-return (1);
->>>>>>> 1afa4c9121e53c4c52e0574a200c226d480f11f8
+	write(2, text, length);
+	return(1);
 
 }
