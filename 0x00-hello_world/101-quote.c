@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
+   #include <stdio.h>
+   #include <string.h>
+   #include <unistd.h>
 
 
 /**
@@ -16,6 +16,6 @@ int main(void)
 	int length = strlen(text);
 
 	write(2, text, length);
-	return(1);
+	return (1);
 
 }
