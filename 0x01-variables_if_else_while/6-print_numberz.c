@@ -7,13 +7,11 @@
  */
 int main(void)
 {
-	char ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
+	int ch;
+	for (ch = 48; ch <= 57; ch++)
 	{
-		if (ch != 'q' && ch != 'e')
-		{
-			putchar(ch);
-		}
+
+		putchar(ch);
 	}
 
 	putchar(10); /* this is an ascii code for new line*/
