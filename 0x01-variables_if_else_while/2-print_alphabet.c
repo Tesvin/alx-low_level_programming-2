@@ -6,13 +6,13 @@
  *
  * *Return:Always0(Success)
  */
-intmain(void)
+int main(void)
 {
-	charlow;
+	char low;
 
-	for(low='a';low<='z';low++)
+	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 	printf("\n");
 
-	return(0);
+	return (0);
 }
