@@ -22,7 +22,7 @@ char *cap_string(char *str)
 			if (separators[j] == str[i])
 			hasWord = 1;
 		}
-	
+
 		if (hasWord)
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
